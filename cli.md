@@ -103,3 +103,25 @@ Did you type a command earlier and you want to know what it was again? You can u
     say <whatever you want it to say>
 
 This one is not only fun, but can be very helpful for people who need more accessibility! Simply type `say <whatever you want to say>` and hit enter, this listen to your computer speak to you! Just make sure your volume is up.
+
+#### Add Path into Terminal Prompt
+
+##### For zsh Shells
+
+In the root directory inside of terminal type:
+
+    open ~/.zshrc
+
+##### For bash Shells
+
+In the root directory inside of terminal type:
+
+    open ~/.bash_profile
+
+In the file, I added this line:
+
+    PROMPT='%F{cyan}%n%f %F{blue}%~%f %% '
+
+The `%F{cyan}%n%f added my name in cyan. The %F{blue}%~% added the the path in blue. There are a lot of different customization options available and you can find some of them here:
+
+(https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html)
