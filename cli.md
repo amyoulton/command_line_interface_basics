@@ -122,6 +122,6 @@ In the file, I added this line:
 
     PROMPT='%F{cyan}%n%f %F{blue}%~%f %% '
 
-The `%F{cyan}%n%f added my name in cyan. The %F{blue}%~% added the the path in blue. There are a lot of different customization options available and you can find some of them here:
+The `%F{cyan}%n%f` added my name in cyan. The `%F{blue}%~%` added the path in blue. There are a lot of different customization options available and you can find some of them here:
 
 (https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html)
